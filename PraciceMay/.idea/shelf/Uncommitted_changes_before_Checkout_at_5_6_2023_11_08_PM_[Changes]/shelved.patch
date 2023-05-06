@@ -1,0 +1,63 @@
+Index: src/Maytwo.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package PACKAGE_NAME;public class Maytwo {\r\n}\r\n
+===================================================================
+diff --git a/src/Maytwo.java b/src/Maytwo.java
+--- a/src/Maytwo.java	
++++ b/src/Maytwo.java	
+@@ -1,2 +1,11 @@
+-package PACKAGE_NAME;public class Maytwo {
++public class Maytwo {
++    int a =8;
++    int b =9;
++
++    boolean c = a> b;
++
++    public static void main(String[] args) {
++        Maytwo i = new Maytwo();
++        System.out.println(i.c);
++    }
+ }
+Index: src/Mayone.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package PACKAGE_NAME;public class Mayone {\r\n}\r\n
+===================================================================
+diff --git a/src/Mayone.java b/src/Mayone.java
+--- a/src/Mayone.java	
++++ b/src/Mayone.java	
+@@ -1,2 +1,32 @@
+-package PACKAGE_NAME;public class Mayone {
++public class Mayone {
++    public static void  kelly(int a, int b){
++        System.out.println("addition is "+a+b);
++
++    }
++
++    public static void jelly(int c, int d){
++        System.out.println(c-d);
++
++    }
++    public void tiny(int e, int f){
++        System.out.println(e*f);
++    }
++    public void jiny(int g,int h ){
++        System.out.println(g/h);
++
++    }
++    public static void  names(String g){
++        System.out.println(g);
++    }
++
++    public static void main(String[] args) {
++        Mayone x = new Mayone();
++        kelly(7,8);
++        jelly(9,7);
++        x.tiny(8,8);
++        x.jiny(16,8);
++        kelly(88,99);
++        names("i like java");
++        names("WORKHARD");
++    }
+ }
